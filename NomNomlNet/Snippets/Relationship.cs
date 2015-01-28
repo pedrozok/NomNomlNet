@@ -9,7 +9,7 @@ namespace NomNomlNet.Snippets
 {
     public class Relationship
     {
-        public RelationshipType relationShipType;
+        public RelationshipType RelationshipType;
         public string Name;
         public string Source;
         public string Target;

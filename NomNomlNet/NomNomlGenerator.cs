@@ -42,7 +42,7 @@ namespace NomNomlNet
 
            foreach (Relationship relationship in relationshipList)
            {
-               switch (relationship.relationShipType)
+               switch (relationship.RelationshipType)
                {
                    case RelationshipType.Simple:
                        sb.Append("[" + relationship.Source + "]->[" + relationship.Target + "]");
